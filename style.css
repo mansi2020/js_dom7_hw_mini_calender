@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url("./1.avif");
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: linear-gradient(90deg, rgba(0, 0, 255, 1) 0%, rgba(0, 128, 0, 1) 100%);
+    border-radius: 10px;
+    box-shadow:5px 5px 29px black;
+    padding: 20px;
+    width:400px;
+}
+
+.calendar {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.header {
+    background-color: #3498db;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.date-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.date-content {
+    text-align: left;
+}
+
+#day, #date, #year {
+    margin: 0;
+    font-size: 18px;
+}
+
+.time {
+    text-align: right;
+    font-size: 18px;
+}
+
+#month{
+    padding:20px;
+    background: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(255, 59, 0, 1) 100%);
+    border-radius: 20px;
+    color:blue;
+    font-weight: 600;
+    font-size:2rem;
+    text-align: center;
+    text-shadow: 2px 2px 5px green;
+}
+
+
+
+#day,#year{
+    color:white;
+    margin:20px 0 20px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+#date{
+    font-size:10rem;
+    text-align: center;
+    color:white;
+    text-shadow: 2px 2px 20px yellow;
+}
+
+#liveTime{
+    background: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(255, 59, 0, 1) 100%);
+    padding:20px;
+    text-align: center;
+    font-size:3rem;
+    color:black;
+    border-radius: 20px;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px lightblue;
+}
+#month:hover,#liveTime:hover{
+    background: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%);
+    transform: scale(1.1);
+}
